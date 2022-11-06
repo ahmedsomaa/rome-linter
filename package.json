@@ -1,0 +1,31 @@
+{
+  "name": "rome-linter",
+  "version": "0.1.0",
+  "description": "A simple app to try rome linter",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "lint": "rome check .",
+    "lint:fix": "rome check \"src/**/*.js\" --apply",
+    "format": "rome format \"src/*.js\" --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmedsomaa/rome-linter.git"
+  },
+  "keywords": [
+    "Rome",
+    "NodeJS",
+    "JavaScript"
+  ],
+  "author": "Ahmed Ismail Abu Qhaf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahmedsomaa/rome-linter/issues"
+  },
+  "homepage": "https://github.com/ahmedsomaa/rome-linter#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "rome": "^0.10.1-next"
+  }
+}
