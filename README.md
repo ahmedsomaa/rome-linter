@@ -11,6 +11,6 @@ Rome is a unified tool for linting and formatting code.
 
 Just run `npx rome check <filename>`.
 
-## formatting 
+## Formatting 
 
 Just run `npx rome format <filename> --write`.
