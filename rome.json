@@ -1,0 +1,18 @@
+{
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "style": {
+        "recommended": true
+      },
+      "recommended": true
+    }
+  },
+  "formatter": {
+    "enabled": true,
+    "indentStyle": "space",
+    "indentSize": 2,
+    "lineWidth": 80,
+    "ignore": ["node_modules", ".gitignore", "LICENSE", "README.md", "package.json", "package-lock.json"]
+  }
+}
